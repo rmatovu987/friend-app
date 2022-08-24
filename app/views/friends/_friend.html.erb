@@ -1,0 +1,32 @@
+<div id="<%= dom_id friend %>">
+  <div class="h-100 p-5 bg-light border rounded-3">
+    <h2><%= friend.first_name %> <%= friend.last_name %></h2>
+    <p>Or, keep it light and add a border for some added definition to the boundaries of your content. Be sure to look under the hood at the source HTML here as we've adjusted the alignment and sizing of both column's content for equal-height.</p>
+    <button class="btn btn-outline-secondary" type="button">Example button</button>
+  </div>
+  <p>
+    <strong>First name:</strong>
+    <%= friend.first_name %>
+  </p>
+
+  <p>
+    <strong>Last name:</strong>
+    <%= friend.last_name %>
+  </p>
+
+  <p>
+    <strong>Email:</strong>
+    <%= friend.email %>
+  </p>
+
+  <p>
+    <strong>Phone:</strong>
+    <%= friend.phone %>
+  </p>
+
+  <p>
+    <strong>Twitter:</strong>
+    <%= friend.twitter %>
+  </p>
+
+</div>
